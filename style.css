@@ -1,0 +1,52 @@
+.header{
+    background-color: beige;
+}
+.header_logo{
+    width: 93px;
+    height: 50px;
+}
+
+body{
+    background-color: #141414;
+}
+.head-1{
+    color: antiquewhite;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column; 
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-profile{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    justify-content: space-around;
+    padding: 0;
+}
+.individual-image{
+    height: 190px;
+
+}
+.individual-profile img:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow: 0 0 20px #dcdcdc;
+}
+.individual-profile{
+    padding: 12px;
+}
+.name{
+    color: antiquewhite;
+}
+.manage-button{
+    background-color: #141414;
+    color: #dcdcdc;
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+    font-size: 18px;
+    cursor: pointer;
+}
